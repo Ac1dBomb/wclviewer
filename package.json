@@ -1,0 +1,19 @@
+{
+  "name": "wclviewer",
+  "version": "1.0.0",
+  "description": "A Node.js backend for fetching WarcraftLogs rankings",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.3.0",   // Make sure axios is installed
+    "express": "^4.18.2"  // Make sure express is installed
+  },
+  "engines": {
+    "node": ">=14.0.0"    // Make sure the correct Node version is specified
+  },
+  "keywords": [],
+  "author": "AcidBomb",
+  "license": "MIT"
+}
